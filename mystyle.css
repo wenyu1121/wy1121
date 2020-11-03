@@ -1,0 +1,52 @@
+  p.title{
+    text-align:center;
+    color:red;
+    font-size:large;
+    font-weight:bold;
+  }
+  p.abstract{
+    text-align:center;
+    color:green;
+    font-style:italic;
+    padding-top:10px;
+    padding-right:80px;
+    padding-bottom:10px;
+    padding-left:80px;
+  }
+  div.top{
+    height:30%;
+  }
+  div.bottom{
+  height:70%;
+  }
+  div.right{
+    width:30%;
+    float:left;
+  }
+  div.left{
+    width:60%;
+    float:left;
+  }
+        img{
+        width:200px;
+      }
+      .lecture{
+        font-size:3em;
+      }
+      
+ .choose {
+    border: solid;
+    border-color: yellowgreen;
+    background-color: #adff2f54;
+  }
+  *{
+  font-size:2rem;
+  }
+    h1{
+      color:blue;
+      font-size:1.5em;
+    }
+    h2{
+      color:pink;
+      font-size:1.5em;
+    }
