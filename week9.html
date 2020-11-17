@@ -1,0 +1,44 @@
+<html>
+<head>
+  <style>
+    h2{color:red;}
+  </style>
+</head>
+<body>
+  寫一個ascii對照表<br/>
+  hint:<br/>
+<h3>字元找號碼</h3>  
+("a").charCoadAt(0)<br/>
+97<br/>
+("xyz").charCoadAt(0)<br/>
+120<br/>
+("xyz").charCoadAt(1)<br/>
+121<br/>
+(xyz).charCoadAt(2)<br/>
+122<br/>
+<h3>號碼找字元</h3>
+string.fromCharCode(97)<br/>
+  <h2>0-127的ASCII</h2>
+  <script>
+    for(i=0;i<=127;i++){
+      c=String.fromCharCode(i)
+      document.write(i+""+c+"<br/>")
+      
+    }
+    //userWant是字串
+    userWant= prompt("你要問甚麼")
+    cc=Number.parseInt(userWant)
+    ccrst=String.fromCharCode(cc)
+    alert(ccrst)
+    
+    
+  </script>
+  
+  
+  
+  
+  
+  
+  
+</body>
+</html>
