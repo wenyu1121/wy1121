@@ -28,7 +28,11 @@ height:50px;
   function clr(e){
     scr.value=""
   }
-
+  function calc(){
+    x2=eval(scr.value)
+    x3=x2.toPrecision(15)
+    scr.value=parseFloat(x3)
+  }
  
 </script>
 </head>
@@ -56,7 +60,7 @@ height:50px;
  <br/>
  <input class="normal" type="button"  value="0" onclick="lclick(this)" > 
  <input class="special"  type="button"  value="." onclick="lclick(this)"> 
- <input class="special" type="button"  value="=" > 
+ <input class="special" type="button"  value="=" onclick="calc()"> 
  <input class="special" type="button"  value="+" onclick="lclick(this)">    
   
 </body>
